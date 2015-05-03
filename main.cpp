@@ -385,8 +385,8 @@ int main(int argc, char** argv) {
     string user_weapon;
     string user_station;
 
-    cout << "Help! Professor Hoenigman has built a super computer to open portals to the top Nerd Fandoms. She has sent her minions out to invade their Kingdoms and wreak havoc on the Nerd Universe." << endl;
-    cout << "Your mission, should you choose to accept it, is to enter each of the worlds and complete a quest to restore order." << endl;
+    cout << "\nHelp! Professor Hoenigman has built a super computer to open portals to the top Nerd Fandoms. She has sent her minions out to invade their Kingdoms and wreak havoc on the Nerd Universe." << endl;
+    cout << "\nYour mission, should you choose to accept it, is to enter each of the worlds and complete a quest to restore order." << endl;
 
     cout << endl;
     cout << "Enter your name:" << endl;
@@ -399,7 +399,7 @@ int main(int argc, char** argv) {
 		cout << "Enter to continue:" << endl;
 		cin.ignore();
         cout << endl;
-        cout << "5 doors each emblazed with a different symbol are before you. Pick one to enter:" << endl;
+        cout << "Before you are 4 doors, each emblazed with a different symbol. Enter the number of the door through which you wish to pass:" << endl;
         cout << "1. Lightning bolt" << endl;
         cout << "2. A bird taking flight" << endl;
         cout << "3. A pokeball" << endl;
@@ -840,7 +840,7 @@ int main(int argc, char** argv) {
             }
             default:
             {
-                cout << "Pick the number of the door you wish to enter." << endl;
+                cout << "Pick the number of the door you wish to enter (1-4), or pick\n another option (5-7)." << endl;
             }
         }
     }
